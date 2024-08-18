@@ -1,0 +1,41 @@
+<!-- <div>
+  <h1 class="text-center text-primary">{{title}}</h1>
+  <img width="150" height="150" class="img-fluid  mx-auto d-block mb-3" src="{{imgLink}}" alt="">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10">
+        <input placeholder="New Task" class="form-control mb-4" [(ngModel)]="newTask">
+      </div>
+      <div class="col-sm-2">
+        <button class="btn btn-primary" (click)="addTask()">Add Task</button>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-sm-11">
+        @if(isAvalible){
+        <table class="table table-striped ">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Edit</th>
+              <th>Remove</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for(i of tasks;track $index){
+            <tr>
+              <td>{{i}}</td>
+              <td><button class="btn btn-info" (click)="editTask($index)">Edit</button></td>
+              <td><button class="btn btn-danger" (click)="deleteTask($index)">Remove</button></td>
+            </tr>
+            }
+
+          </tbody>
+        </table>
+        }
+      </div>
+    </div>
+  </div>
+</div> -->

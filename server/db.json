@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Title One",
+      "completed": true
+    },
+    {
+      "id": "iehoifwo",
+      "title": "Title two",
+      "completed": true
+    },
+    {
+      "id": "1fdsabsg",
+      "title": "Title three",
+      "completed": false
+    },
+    {
+      "title": "samir",
+      "completed": false,
+      "id": "cu_zV1m"
+    }
+  ]
+}
